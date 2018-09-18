@@ -1,0 +1,38 @@
+{
+  "name": "@gogrillion/gl-color-tools",
+  "version": "1.0.0",
+  "description": "Fast color functions for WebGL Applications ",
+  "main": "index.js",
+  "scripts": {
+    "clean": "del index.d*; del index.j*;",
+    "compile": "tsc -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": false,
+  "files": [
+    "index.ts",
+    "index.d.ts",
+    "index.d.ts.map",
+    "index.js",
+    "index.js.map"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GoGrillion/gl-color-tools.git"
+  },
+  "keywords": [
+    "webgl",
+    "color",
+    "performance"
+  ],
+  "author": "Mike Grill <mike@gogrillion.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoGrillion/gl-color-tools/issues"
+  },
+  "homepage": "https://github.com/GoGrillion/gl-color-tools#readme",
+  "devDependencies": {
+    "del-cli": "^1.1.0",
+    "typescript": "^3.0.3"
+  }
+}
